@@ -1,0 +1,178 @@
+.top-animation {
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+
+.about-left-side{
+    animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-40px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+
+}
+
+
+
+
+
+
+/* write animation start here  */
+/* .banner-title{
+    font-size: 18px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+
+.banner-title::before{
+    content: 'MERN Stack Developer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #22bedd;
+    animation: typing 3s linear infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: 'M|';
+    }
+
+    4% {
+        content: 'ME|';
+    }
+
+    8% {
+        content: 'MER|';
+    }
+
+    12% {
+        content: 'MERN|';
+    }
+
+    16% {
+        content: 'MERN S|';
+    }
+
+    20% {
+        content: 'MERN St|';
+    }
+
+    24% {
+        content: 'MERN Sta|';
+    }
+
+    28% {
+        content: 'MERN Stac|';
+    }
+
+    32% {
+        content: 'MERN Stack|';
+    }
+
+    36% {
+        content: 'MERN Stack D|';
+    }
+
+    40% {
+        content: 'MERN Stack De|';
+    }
+
+    44% {
+        content: 'MERN Stack Dev |';
+    }
+
+    48% {
+        content: ' MERN Stack Deve|';
+    }
+
+    52% {
+        content: 'MERN Stack Devel|';
+    }
+
+    56% {
+        content: 'MERN Stack Develo|';
+    }
+
+    60% {
+        content: 'MERN Stack Develop|';
+    }
+
+    64%,
+    83% {
+        content: 'MERN Stack Develope|';
+    }
+
+    84% {
+        content: 'MERN Stack developer |';
+    }
+
+    85% {
+        content: 'MERN Stack |';
+    }
+
+    86% {
+        content: 'MERN Stac |';
+    }
+
+    87% {
+        content: 'MERN Sta |';
+    }
+
+    88% {
+        content: 'MERN St|';
+    }
+
+    89% {
+        content: 'MERN S|';
+    }
+
+    90% {
+        content: 'MERN |';
+    }
+
+    91% {
+        content: 'MER';
+    }
+
+    92% {
+        content: 'MER';
+    }
+
+    93% {
+        content: 'ME|';
+    }
+
+    94% {
+        content: 'M |';
+    }
+
+    95% {
+        content: '|';
+    }
+
+    
+} */
+
+/* write animation ends here  */

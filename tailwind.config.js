@@ -6,10 +6,10 @@ module.exports = {
   daisyui: {
     themes: [
       {
-        doctortheme: {
+        portfoliotheme: {
           primary: "#0FCFEC",
-          secondary: "#252729",
-          accent: "#3A4256",
+          secondary: "#E4AD0B",
+          accent: "#2e2f30",
           neutral: "#3d4451",
           "base-100": "#ffffff",
         },
