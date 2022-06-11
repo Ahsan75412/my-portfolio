@@ -1,22 +1,17 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useParams } from 'react-router-dom';
+import { data } from '../../data';
 import ProjectDetail from './ProjectDetail';
 
 const Details = () => {
-    const { _id } = useParams();
-    const [projectsDetails , setProjectsDetails] = useState(_id);
+    const { id } = useParams();
 
-    useEffect(() => {
-        fetch(`projects.json`)
-            .then(res => res.json())
-            .then(data => setProjectsDetails(data))
-    }, []);
+    const project = data.find(item => item._id === id);
+    console.log(project);
+
     return (
         <div>
-            {
-                projectsDetails.map(project => <ProjectDetail key={project.id} project={project}></ProjectDetail>)
-            }
-            
+            <ProjectDetail project={project} />
         </div>
     );
 };
