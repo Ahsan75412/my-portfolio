@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const ProjectDetail = ({project}) => {
     const { image, name, description,Tools,technology,link } = project;
   
@@ -15,6 +16,7 @@ const ProjectDetail = ({project}) => {
                 <h3 className="py-2 text-gray-400 text-xl "><span className='text-secondary'>Tools : </span>{Tools}</h3>
 
                 <a href={link} target="{_blank}" className='btn btn-warning font-bold'><i class="fa-solid fa-eye mr-2"></i>Live</a>
+                <a href={link} target="{_blank}" className='btn btn-warning font-bold ml-2'><i class="fa-solid fa-eye"></i>Repository</a>
 
             </div>
         </div>

@@ -6,7 +6,6 @@ import Details from './Pages/Home/Details';
 import Footer from './Pages/Shared/Footer';
 import About from './Pages/Home/About';
 import Services from './Pages/Home/Services';
-import Project from './Pages/Home/Project';
 import Projects from './Pages/Home/Projects';
 import Skills from './Pages/Home/Skills';
 import Contact from './Pages/Home/Contact';

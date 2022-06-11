@@ -8,14 +8,13 @@ import Skills from './Skills';
 
 const Home = () => {
     return (
-        <div className=" mx-auto px-12">
+        <div className=" mx-auto lg:px-12">
             <Banner></Banner>
             <About></About>
             <Services></Services>
             <Projects></Projects>
             <Skills></Skills>
             <Contact></Contact>
-            
         </div>
     );
 };

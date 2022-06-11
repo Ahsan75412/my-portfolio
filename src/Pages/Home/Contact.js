@@ -10,7 +10,7 @@ const Contact = () => {
 
                         <div className="form-control w-full max-w-xs">
                             <label className="label">
-                                <span className="label-text text-secondary">Name:</span>
+                                <span className="label-text text-secondary font-bold">Name:</span>
                             </label>
                             <input
                                 type="text"
@@ -19,7 +19,7 @@ const Contact = () => {
 
                             />
                             <label className="label">
-                                <span className="label-text text-secondary">Email:</span>
+                                <span className="label-text text-secondary font-bold">Email:</span>
                             </label>
                             <input
                                 type="text"
@@ -27,7 +27,7 @@ const Contact = () => {
                                 className="input input-bordered w-full max-w-xs"
                             />
                             <label className="label">
-                                <span className="label-text text-secondary">Message:</span>
+                                <span className="label-text text-secondary font-bold">Message:</span>
                             </label>
                             <input
                                 type="text"

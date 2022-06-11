@@ -15,7 +15,8 @@
         "technology": "ReactJs , React-Bootstrap , Firebase Google and Github authentication , React-Router", 
         "Tools": "VS Code , GitHub , Firebase ",
         "image": "https://res.cloudinary.com/dg5xbio2w/image/upload/v1654903024/My-Projects/book_ntrl9i.png",
-        "link": "https://book-inventory-client.web.app/"
+        "link": "https://book-inventory-client.web.app/",
+        "link2": "https://github.com/Ahsan75412/Book-Inventory-Management-client"
     },
     {
         "_id" : 3,
@@ -23,7 +24,8 @@
         "description": "This Site Personal Dental Service website . Have login and register system and Firebase Authentication System . ",
         "technology": "ReactJs , Tailwind CSS , Firebase , React-Router , Axios ,react-stripe, react-query , react-firebase-hooks , react-hook-form , React Toastify", 
         "image": "https://res.cloudinary.com/dg5xbio2w/image/upload/v1654903024/My-Projects/gentle_b7o1fz.png",
-        "link": "https://dental-care-6b48a.web.app/"
+        "link": "https://dental-care-6b48a.web.app/",
+        "link2": "https://github.com/Ahsan75412/Gentle-Care-Dental"
     }
 
 ]
