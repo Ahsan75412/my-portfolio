@@ -5,12 +5,12 @@ import { Link } from 'react-router-dom';
 const Navbar = () => {
 
     const menuItems = <>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/services">Services</Link></li>
-        <li><Link to="/project">Project</Link></li>
-        <li><Link to="/skill">Skill</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li ><Link to="/">Home</Link></li>
+        <li ><Link to="/about">About</Link></li>
+        <li ><Link to="/services">Services</Link></li>
+        <li ><Link to="/project">Project</Link></li>
+        <li ><Link to="/skill">Skill</Link></li>
+        <li ><Link to="/contact">Contact</Link></li>
         
     </>
     return (
@@ -24,7 +24,7 @@ const Navbar = () => {
                         {menuItems}
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-xl text-primary">Ahsan's Portfolio</a>
+                <a className="btn btn-ghost normal-case text-xl text-primary"><i className="fa-solid fa-user ml-2 mr-2"></i>Ahsan's Portfolio</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0 text-white">

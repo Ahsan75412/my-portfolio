@@ -10,7 +10,7 @@ const Project = ({project , children}) => {
     }
 
     return (
-        <div className="hero my-8">
+        <div className="hero my-8" >
             <div className="hero-content flex-col lg:flex-row">
                 <img className='lg:w-1/2' src={image} alt="img" />
                 <div className='lg:w-1/2 '>

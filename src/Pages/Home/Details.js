@@ -7,11 +7,11 @@ const Details = () => {
     const { id } = useParams();
 
     const project = data.find(item => item._id === id);
-    console.log(project);
+    // console.log(project);
 
     return (
         <div>
-            <ProjectDetail project={project} />
+            <ProjectDetail project={project} key={id}/>
         </div>
     );
 };
