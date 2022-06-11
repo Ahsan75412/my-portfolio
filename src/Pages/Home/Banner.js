@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <div className="hero min-h-screen">
             <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src={myPhoto} className="max-w-sm rounded-lg  w-54 hero-right-side top-animation" />
+                <img src={myPhoto} className="max-w-sm rounded-lg  w-54 hero-right-side top-animation" alt='img' />
                 <div className=''>
                 <h2 className="text-2xl text-primary"> Hey There! I'm </h2>
                     <h1 className="text-5xl font-bold text-white">Md Ahsan Habib</h1>
